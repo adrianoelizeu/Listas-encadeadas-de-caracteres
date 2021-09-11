@@ -67,10 +67,11 @@ void imprimir_lista(Lista_1* l_1, Lista_2* l_2){
 caracter_1* atual_1 = l_1 -> inicio;
 caracter_2* atual_2 = l_2 -> fim;
 
-while(atual_1 && atual_2 != NULL) // imprimir as duas lista misturadas
+while(atual_1 && atual_2 != NULL) {// imprimir as duas lista misturadas
   printf("%c%c", atual_1->c, atual_2->c);
   atual_1 = atual_1->prox_1;
   atual_2 = atual_2->prox_2;
  
 }
 }
+
